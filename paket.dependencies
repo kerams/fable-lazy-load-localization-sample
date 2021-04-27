@@ -1,0 +1,23 @@
+version 6.0.0
+group Client
+    source https://api.nuget.org/v3/index.json
+    framework: net5.0
+    storage: none
+
+    nuget Feliz
+    nuget FSharp.Core ~> 4
+    nuget Fable.Core ~> 3
+    nuget Fable.Elmish
+    nuget Fable.Elmish.React
+    nuget Fable.Elmish.HMR
+    nuget Fable.React
+
+group Build
+    source https://api.nuget.org/v3/index.json
+    framework: netstandard2.0
+    storage: none
+
+    nuget FSharp.Core
+    nuget Fake.Core.Target
+    nuget Fake.DotNet.Cli
+    nuget Fake.IO.FileSystem

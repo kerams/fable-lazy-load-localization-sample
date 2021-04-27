@@ -1,0 +1,6 @@
+group Client
+FSharp.Core
+Fable.Elmish.React
+Fable.Elmish.HMR
+Fable.Core
+Feliz
