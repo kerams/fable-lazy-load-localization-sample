@@ -39,7 +39,7 @@ let update msg model =
 [<Feliz.ReactComponent>]
 let DeepComponent () =
     let localization = Hooks.useContext localizationContext
-    str localization.Hello
+    localization.Hello "Random Person" |> str
 
 [<Feliz.ReactComponent>]
 let OtherComponent () =
